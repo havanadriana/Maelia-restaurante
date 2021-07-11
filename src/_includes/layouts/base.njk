@@ -11,7 +11,17 @@
   <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body id="top" itemscope itemtype="http://schema.org/WebPage">
-  {{ content | safe }}
+  <div>
+    <a href="/">index</a>
+    <a href="/contacto/">contacto</a>
+</div>
+
+{{ content | safe }}
+
+<div class="footer">
+  &copy; hola
+</div>
+
   <script src="/scripts/index.js"></script>
 </body>
 </html>
