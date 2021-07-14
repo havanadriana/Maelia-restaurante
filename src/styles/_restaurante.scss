@@ -1,0 +1,14 @@
+@import '_reset.scss';
+@import '_general.scss';
+@import '_navegación.scss';
+@import '_footer.scss';
+@import '_head.scss';
+
+.foto-reservas {
+    img {
+        max-height: 400px ;
+        min-width: 100%;
+        object-fit: cover;
+    }
+}
+

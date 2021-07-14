@@ -1,2 +1,53 @@
 @import '_reset.scss';
 @import '_general.scss';
+@import '_navegación.scss';
+@import '_footer.scss';
+@import '_head.scss';
+@import '_botones.scss';
+
+
+.intro {
+    min-height: 1500px;
+}
+
+.foto-inicio {
+    img {
+        max-height: 700px ;
+        min-width: 100%;
+        object-fit: cover;
+    }
+}
+
+.texto-intro{
+    width:50%;
+    background-color: hotpink;
+    float:left;
+    min-height: 600px;
+    text-align: center;
+    h1 {
+        padding-top: 60px;
+        font-weight: normal;
+        text-transform: uppercase; 
+        font-size: 55px;
+    }
+    h2 {
+        margin-top: -40px;
+        font-size: 20px;
+    }
+    p {
+        margin-top: 50px;
+        font-weight:lighter;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.fotos-intro{
+    width:50%;
+    background-color: blue;
+    float:left;
+    padding-top:100px;
+    min-height: 370px;
+}
+

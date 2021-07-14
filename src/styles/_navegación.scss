@@ -1,0 +1,24 @@
+.navegación {
+    list-style: none;
+    text-align: center;
+    margin-top: -10px; 
+    margin-bottom: 60px;
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .navegación-activo {
+        font-size:larger;
+        font-weight:bolder;
+    }
+}
+

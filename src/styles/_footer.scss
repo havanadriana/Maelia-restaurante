@@ -1,0 +1,32 @@
+.footer {
+    min-height: 100px;
+    width: 100%;
+    color: white;
+    background-color: #deceb4;
+
+    .footer-copy {
+        padding-top: 60px;
+        margin-left: 20px;
+        align-items: center;
+    }
+    
+    .footer-contact {
+        display: flex;
+        align-items: right;
+        position: absolute;
+        right: 0;
+        
+        img {
+            display: inline-block;
+            background-color: none;
+            width: 20px;
+            height: 20px;
+            margin-right: 20px;
+            
+        }
+    }
+}
+
+
+
+
