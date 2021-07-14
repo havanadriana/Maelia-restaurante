@@ -1,13 +1,22 @@
 .botones {
-    text-align:center;
 
     .boton1, .boton2 {
-        border-radius: 40px;
-        width: 100px;
-        height: 70px;
+        display: inline;
+        border-radius: 10px;
         background-color: none;
-        border: 3px solid #deceb4;
+        border: 5px solid #deceb4;
+        padding: 15px;
+        margin: 25px; 
+
+        a {
+            text-decoration: none;
+            color: #deceb4;
+        }
     }
     
+    .boton2 {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 }
 

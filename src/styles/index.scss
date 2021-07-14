@@ -7,7 +7,8 @@
 
 
 .intro {
-    min-height: 1500px;
+    min-height: 1450px;
+    margin-bottom: 100px;
 }
 
 .foto-inicio {
@@ -18,36 +19,48 @@
     }
 }
 
+.apartados-intro {
+    align-items: center;
+}
+
 .texto-intro{
-    width:50%;
-    background-color: hotpink;
+    width:40%;
+    margin-left: 50px;
     float:left;
-    min-height: 600px;
+    min-height: 750px;
     text-align: center;
+    margin-left: 190px; 
     h1 {
         padding-top: 60px;
         font-weight: normal;
         text-transform: uppercase; 
-        font-size: 55px;
+        font-size: 65px;
     }
     h2 {
         margin-top: -40px;
-        font-size: 20px;
+        font-size: 25px;
     }
     p {
-        margin-top: 50px;
+        margin-top: 65px;
         font-weight:lighter;
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 85px;
     }
 }
 
 .fotos-intro{
-    width:50%;
-    background-color: blue;
+    width:40%;
     float:left;
-    padding-top:100px;
-    min-height: 370px;
+    padding-top:90px;
+    min-height: 750px;
+    img {
+        margin-top: 30px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;  
+        max-width: 570px;
+    }
 }
 
