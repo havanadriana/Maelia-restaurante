@@ -23,22 +23,37 @@
     }
 }
 
-.trigger{
-    color: #e94057;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    display: inline-block;
-  }
-  
-.container-block{
-    overflow: hidden;
-    max-height: 0;
-    background-color: #ECECEC;
-    transition: max-height .3s;
-}
-  
-.content-block{
-    padding: 1rem 2rem;
+.slide{
+    background-color: var(--yellow);
+    height: 600px;
+    margin-top: 100px;
+    display: flex;
+    
+
+    img{
+        max-width: 320px;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+
+    h1{
+        margin-top: 85px;
+        font-size: 30px;
+        font-family: var(--sanserif);
+        color: var(--red);
+        margin-left: 100px;
+
+    }
+
+    .your-class{
+        width: 1350px;
+        margin-left: -300px;
+
+
+        img{
+            width: 500px;
+        }
+    }
+
+
 }

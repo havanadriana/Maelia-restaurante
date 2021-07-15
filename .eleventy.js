@@ -12,21 +12,3 @@ module.exports = function(eleventyConfig) {
   }
 }
 
-function slideToggle(myEvent) {
-  myEvent.preventDefault();
-
-  var myTarget = this.getAttribute('href');
-  var theBlock = document.querySelector(myTarget);
-  var finalHeight = theBlock.querySelector('.content-block').clientHeight;
-  if (theBlock.classList.contains('is-open')) {
-    theBlock.classList.remove('is-open');
-    theBlock.style.maxHeight = 0;
-  } else {
-    theBlock.classList.add('is-open');
-    theBlock.style.maxHeight = finalHeight + 'px';
-  }
-}
-
-document.querySelectorAll('.trigger').forEach(function(myElement) {
-  myElement.addEventListener('click', slideToggle);
-});
