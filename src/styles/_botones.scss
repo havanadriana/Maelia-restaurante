@@ -1,6 +1,6 @@
 .botones {
 
-    .boton1, .boton2, .boton3 {
+    .boton1, .boton2, .boton3, .boton4, .boton5 {
         display: inline;
         border-radius: 10px;
         border: 5px solid #deceb4;
@@ -27,6 +27,14 @@
         margin-left: 40px;
         position: absolute;
         top: 610px;
+    }
+
+    .boton4, .boton5 {
+        padding-right: 25px;
+        padding-left: 25px;
+        position: relative;
+        top: -100px;
+        left: 520px;
     }
 }
 

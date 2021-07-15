@@ -15,7 +15,30 @@
     top: 525px;
     font-size: 25px;
     padding-left: 30px;
-    padding-right: 180px;
+    padding-right: 250px;
     margin-bottom: 30px;
     height: 70px;
+    h1{
+        margin-top: -5px;
+    }
+}
+
+.trigger{
+    color: #e94057;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+  
+.container-block{
+    overflow: hidden;
+    max-height: 0;
+    background-color: #ECECEC;
+    transition: max-height .3s;
+}
+  
+.content-block{
+    padding: 1rem 2rem;
 }

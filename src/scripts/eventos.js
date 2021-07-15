@@ -1,16 +1,6 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+import list from './modules/list'
 
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPassthroughCopy('src/images')
-
-  return {
-    dir: { input: 'src', output: 'dist', data: '_data' },
-    passthroughFileCopy: true,
-    templateFormats: ['njk', 'md', 'css', 'html', 'yml'],
-    htmlTemplateEngine: 'njk'
-  }
-}
+console.log(`Hello ${list[0]}`)
 
 function slideToggle(myEvent) {
   myEvent.preventDefault();
