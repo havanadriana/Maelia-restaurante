@@ -33,7 +33,6 @@
     align-items: center;
     min-height: 500px;
     margin-bottom: 30px;
-    border: solid blue;
     margin-left: 50px;
 }
 
@@ -42,20 +41,17 @@
     top: -450px;
     left: 925px;
     width: 300px;
-    border: solid hotpink;
 }
 
 .cuadro-personas {
     position: relative;
     left: 550px;
     width: 320px;
-    border:solid greenyellow;
 }
 
 .cuadro-fecha {
     position: absolute; 
     width: 500px;
-    border: solid indigo;
 }
 
 .cuadro-fecha, .cuadro-personas, .cuadro-horas {
@@ -144,5 +140,5 @@
 }
 
 .comida, .cena{
-    
+    font-size: 40px;
  }

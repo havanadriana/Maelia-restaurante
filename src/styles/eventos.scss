@@ -23,37 +23,3 @@
     }
 }
 
-.slide{
-    background-color: var(--yellow);
-    height: 600px;
-    margin-top: 100px;
-    display: flex;
-    
-
-    img{
-        max-width: 320px;
-        margin-top: 150px;
-        margin-left: 80px;
-    }
-
-    h1{
-        margin-top: 85px;
-        font-size: 30px;
-        font-family: var(--sanserif);
-        color: var(--red);
-        margin-left: 100px;
-
-    }
-
-    .your-class{
-        width: 1350px;
-        margin-left: -300px;
-
-
-        img{
-            width: 500px;
-        }
-    }
-
-
-}
