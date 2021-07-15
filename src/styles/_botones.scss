@@ -1,9 +1,8 @@
 .botones {
 
-    .boton1, .boton2 {
+    .boton1, .boton2, .boton3 {
         display: inline;
         border-radius: 10px;
-        background-color: none;
         border: 5px solid #deceb4;
         padding: 15px;
         margin: 25px; 
@@ -17,6 +16,17 @@
     .boton2 {
         padding-right: 30px;
         padding-left: 30px;
+    }
+
+    .boton3 {
+        background-color: white;
+        padding-right: 50px;
+        padding-left: 50px;
+        text-align: center;
+        font-size: 23px;
+        margin-left: 40px;
+        position: absolute;
+        top: 610px;
     }
 }
 

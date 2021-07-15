@@ -4,7 +4,10 @@
 @import '_footer.scss';
 @import '_head.scss';
 @import '_botones.scss';
-
+@import 'restaurante.scss';
+@import 'eventos.scss';
+@import 'contacto.scss';
+@import 'reservas.scss';
 
 .intro {
     min-height: 1450px;
@@ -63,4 +66,6 @@
         max-width: 570px;
     }
 }
+
+
 

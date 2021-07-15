@@ -1,0 +1,30 @@
+.foto-restaurante {
+    img {
+        max-height: 425px;
+        min-width: 100%;
+        object-fit: cover;
+    }
+}
+
+.restaurante-titulo {
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color: #deceb4;
+    text-transform: uppercase;
+    top: 525px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 180px;
+    margin-bottom: 30px;
+    height: 70px;
+}
+
+.foto-chef {
+    img{
+    border-radius: 100px;
+    max-height: 500px;
+    max-width: 500px;
+    }
+}
+

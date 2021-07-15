@@ -1,0 +1,37 @@
+@import '_reset.scss';
+@import '_general.scss';
+@import '_navegación.scss';
+@import '_footer.scss';
+@import '_head.scss';
+@import '_botones.scss';
+
+.contacto-titulo {
+    color: white;
+    background-color: #deceb4;
+    text-transform: uppercase;
+    top: 525px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    height: 70px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.foto-contacto {
+    padding-top: 30px;
+    img{
+        min-width: 100%;
+        max-height: 700px;
+        object-fit: cover;
+        margin-bottom: 60px;
+    }
+}
+
+.contacto-datos {
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 40px;
+    p {
+        font-size: 30px;
+    }
+}
