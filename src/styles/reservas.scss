@@ -1,0 +1,123 @@
+.reservas {
+    min-height: 1000px;
+}
+
+.reservas-titulo {
+    color: white;
+    background-color: #deceb4;
+    text-transform: uppercase;
+    top: 525px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    height: 70px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.cuadros {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;  
+    align-items: center;
+
+    h1, h2 {
+        font-weight: lighter;
+        margin-left: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
+
+.cuadros {
+    max-width: 1650px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center; 
+    margin-bottom: 30px;
+}
+
+.cuadro-horas {
+    position: absolute;
+    top: 390px;
+    right: 130px;
+}
+
+.cuadro-personas {
+    position: absolute;
+    top: 390px;
+    margin-left: 70px;
+    
+}
+
+.cuadro-fecha, .cuadro-personas, .cuadro-horas {
+    display: inline-block;
+    background-color: #f8f5ef;
+    width: 500px;
+    border-radius: 20px;
+    height: 450px;   
+}
+
+.recuadro-mes {
+    background-color: #eae0d0;
+    text-align: center;
+    font-size: 23px;
+}
+
+.dias {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 20px;
+    margin-top: -10px;
+}
+
+.números-no-disponible {
+    text-align:justify;
+    font-size: 30px;
+    padding-left: 30px;
+    color: lightgray; 
+
+    .números-no-disponible1 {
+        word-spacing: 40px;
+        margin-top: -25px;
+    }
+    
+    .números-no-disponible2 {
+        word-spacing: 33px;
+        margin-top: -25px;
+    }
+    
+    .números-no-disponible3 {
+        word-spacing: 28px;
+        margin-top: -25px;
+       
+    }
+}
+
+.números-disponibles {
+    font-size: 30px;
+    margin-left: 145px;
+    margin-top: -75px;
+    .num, .num1 {
+        border-radius: 100px;
+        background-color: #eae0d0;
+        display: inline-block;
+        margin-right: 10px;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        align-items: center;
+        word-spacing:20px;
+        p {
+            margin-top: 1px; 
+        }
+    }
+    .num1 {
+        margin-left: -460px;
+        margin-top: 50px;
+        position:absolute; 
+    }
+} 
+
+
+

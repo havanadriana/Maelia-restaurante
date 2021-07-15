@@ -21,10 +21,13 @@
 }
 
 .foto-chef {
+    padding-top: 50px; 
+    padding-left: 500px;
     img{
-    border-radius: 100px;
-    max-height: 500px;
-    max-width: 500px;
+    border-radius: 1000px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
     }
 }
 
