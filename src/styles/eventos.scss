@@ -23,3 +23,22 @@
     }
 }
 
+.trigger{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    img {
+        max-height: 300px; 
+    }
+  }
+  
+  .container-block{
+    overflow: hidden;
+    max-height: 0;
+    background-color: #ECECEC;
+    transition: max-height .3s;
+  }
+  
+  .content-block{
+    padding: 1rem 2rem;
+  }
