@@ -1,6 +1,6 @@
 .botones {
 
-    .boton1, .boton2, .boton3, .boton4, .boton5 {
+    .boton1, .boton2, .boton3, .boton4, .boton5, .boton6 {
         display: inline;
         border-radius: 10px;
         border: 5px solid #deceb4;
@@ -35,6 +35,17 @@
         position: relative;
         top: -100px;
         left: 520px;
+    }
+
+    .boton6 {
+        position: relative; 
+        top:-400px;
+        left: 20px;
+        padding: 20px;
+    }
+
+    .boton:hover {
+        transform: scale(2);
     }
 }
 
